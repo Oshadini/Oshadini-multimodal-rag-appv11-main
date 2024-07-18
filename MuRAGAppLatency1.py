@@ -620,9 +620,9 @@ if uploaded_file is not None:
                       st.image(image_data)
                       
                       found_image = True  # Set the flag to True to indicate that an image has been found
-                      break
+                      #break
                 client.delete_collection("mm_rag_mistral04")
-            
+    break        
         
     with col2:
         if st.button('Briefed Response'):
